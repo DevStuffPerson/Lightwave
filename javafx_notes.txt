@@ -1,0 +1,5 @@
+I wrote the JavaFX version with Oracle's JDK 1.8 which has has FX built in.  Open JDK/JRE doesn't have FX built in so you'll need to download the FX libraries and link to them in the exectuion call.  On SIPR CDE I've run lightwave with open jdk 15 and javafx sdk 15.  To do that I have to execute with the following:
+
+<path to java>/jdk-15.0.1/bin/java --module-path <path to javafx>/javafx-sdk-15.0.1/lib --add-modules javafx.controls,javafx.fxml,javafx.web -jar <path to lightwave>/Lightwave.jar
+
+Now that I've written the above, I realize I only uploded the source code, not the executable jar.  There is no reason to make you download and configure a propper java IDE just so you can build it, so I'll upload the jar as soon as possible.
