@@ -3,3 +3,5 @@ I wrote the JavaFX version with Oracle's JDK 1.8 which has has FX built in.  Ope
 <path to java>/jdk-15.0.1/bin/java --module-path <path to javafx>/javafx-sdk-15.0.1/lib --add-modules javafx.controls,javafx.fxml,javafx.web -jar <path to lightwave>/Lightwave.jar
 
 Now that I've written the above, I realize I only uploded the source code, not the executable jar.  There is no reason to make you download and configure a propper java IDE just so you can build it, so I'll upload the jar as soon as possible.
+
+I also discovered I didn't include a library in the src folder which I'll upload when I get home.
